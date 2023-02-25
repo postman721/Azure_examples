@@ -104,11 +104,11 @@ Functions:
 
 	orchestrator: orchestrationTrigger
 
-[2023-02-25T11:04:59.893Z]  INFO: Using allowed directories for shared memory: ['/dev/shm'] from App Setting: FUNCTIONS_UNIX_SHARED_MEMORY_DIRECTORIES
-[2023-02-25T11:04:59.912Z]  INFO: Successfully opened gRPC channel to 127.0.0.1:46109 
-[2023-02-25T11:04:59.912Z]  INFO: Detaching console logging.
-[2023-02-25T11:04:59.956Z] Switched to gRPC logging.
-...
+		[2023-02-25T11:04:59.893Z]  INFO: Using allowed directories for shared memory: ['/dev/shm'] from App Setting: FUNCTIONS_UNIX_SHARED_MEMORY_DIRECTORIES
+		[2023-02-25T11:04:59.912Z]  INFO: Successfully opened gRPC channel to 127.0.0.1:46109 
+		[2023-02-25T11:04:59.912Z]  INFO: Detaching console logging.
+		[2023-02-25T11:04:59.956Z] Switched to gRPC logging.
+		...
 
 
 If I would navigate to http://localhost:7071/api/orchestrators/orchestrator, I would see endpoints. By going to the orchestrator url, the durable function would get started.
