@@ -76,7 +76,7 @@ I Fixed this by making sure that azurite ran in the current folder only. On cli,
 		azurite  --location . 
 
 
-#### Error and how to handle it
+#### Settings error and how to handle it
 		
 
 Upon initial func start, you will get an error:
