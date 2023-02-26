@@ -70,7 +70,8 @@ We will need:
 Start azurite with the command:  <b> azurite </b>
 
 NOTICE. Azurite can be a pain at times. I managed to corrupt its storage multiple times. When this happened client functions could not run etc.
-Fixed this by making sure that azurite ran in the current folder only. On cli, I executed:  
+
+I Fixed this by making sure that azurite ran in the current folder only. On cli, I executed:  
 
 		azurite  --location . 
 
