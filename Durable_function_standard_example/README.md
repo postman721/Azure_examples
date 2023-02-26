@@ -119,3 +119,15 @@ Functions:
 If I would navigate to http://localhost:7071/api/orchestrators/orchestrator, I would see endpoints. By going to the orchestrator url, the durable function would get started.
 
 If I would copy the statusQueryGetUri url line and navigate to it, I would essentially be seeing the durable function in action. 
+
+
+When the function completes the output of statusQueryGetUri will be:
+
+		name	"orchestrator"
+		instanceId	"8a2ef8184b3f4ef293ad5354e404b7d6"
+		runtimeStatus	"Completed"
+		input	null
+		customStatus	null
+		output	"Hello, World. This HTTP triggered function executed successfully."
+		createdTime	"2023-02-26T00:04:58Z"
+		lastUpdatedTime	"2023-02-26T00:04:58Z"
